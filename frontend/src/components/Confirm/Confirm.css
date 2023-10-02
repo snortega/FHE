@@ -1,0 +1,139 @@
+body {
+    background-attachment: fixed;
+    flex-direction: column;
+}
+.confirmheader h1 {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 60px;
+}
+.confirmheader h2 {
+  color: white;
+  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: 2px;
+  margin-right:10px;
+  display: flex;
+  justify-content: right;
+  align-items: right;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 40px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+
+}
+
+.confirmheader {
+    background: #134c75;
+    width: 100%;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+.confirmfooter {
+  position:absolute;
+  bottom:0;
+  box-sizing: border-box;
+  background: #134c75; 
+  width: 100%;
+  text-align: right;
+  display: flex;
+  justify-content: right;
+}
+
+.confirm button {
+  margin:20px;
+  background-color: rgba(0, 0, 0, 0.26);
+  border: 2px solid black;
+  color: white;
+  padding: 15px;
+  font-size: 20px;
+}
+
+.confirm button:hover {
+  background-color: rgba(0, 0, 0, 0);
+  border: 2px solid rgb(255, 255, 255, 1);
+  color: white;
+  padding: 15px;
+  cursor: pointer;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.confirm-image-container img {
+  float:'left';
+  margin-right: 200px;
+  margin-top: 2%;
+  border: 2px solid black;
+  width: 25%;
+  height: 25%;
+}
+
+.confirm-image-container img:hover {
+  background-color: rgba(0, 0, 0, 0);
+  border: 2px solid black;
+  color: black;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.confirmpage {
+  background-color: #134c75;
+  width: 50vw;
+  height: 65vh;
+  margin-left:25vw;
+  margin-top: 2vh;
+}
+
+
+
+.confirmpage button {
+  margin:20px;
+  background-color: rgba(0, 0, 0, 0.26);
+  border: 2px solid black;
+  color: white;
+  padding: 15px;
+  font-size: 20px;
+  float:right;
+  margin-top: 55vh;
+  position:relative;
+}
+
+.confirmpage button:hover {
+  background-color: rgba(0, 0, 0, 0);
+  border: 2px solid rgb(255, 255, 255, 1);
+  color: white;
+  padding: 15px;
+  cursor: pointer;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.confirmpage ul {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 36px;
+  padding: 5px;
+  float:left;
+  text-align:left;
+  margin-left:3vw;
+  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: 2px;
+}
+
+.confirmpage p {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 33px;
+  padding: 5px;
+  position: absolute;
+  margin-top: 52vh;
+  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: 2px;
+}
